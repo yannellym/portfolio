@@ -273,12 +273,13 @@ h4 {
   line-height: 1.4;
   text-align: left;
 }
-.project-card {
+.project-card2 {
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  height: 380px;
 }
 .project-link{
   color: #ffffff;  
@@ -294,7 +295,7 @@ h4 {
 }
 .btn-div{
   display: flex;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 .btn-repo{
@@ -709,6 +710,18 @@ font-size: 15px;
   }
   .skill-header{
     text-align: center;
+  }
+  .icon{
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .project-card2 {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    height: 420px;
   }
 }
 
