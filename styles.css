@@ -279,7 +279,7 @@ h4 {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  height: 380px;
+  height: 400px;
 }
 .project-link{
   color: #ffffff;  
@@ -499,14 +499,15 @@ h4 {
     display:flex;
   } 
   .about{
-    width: 95%;
-    height:400px;
+    width: 45%;
+    height: 700px;
     font-size: 20px;
     overflow:scroll;
+    margin: 5% 0;
   }
   .twitterDiv{
     height:550px;
-    width: 80%;
+    width: 45%;
     text-align: center;
   }
   #quote {
@@ -525,8 +526,27 @@ h4 {
 
 /* laptops and small screens */
 @media screen and (min-width: 769px) and (max-width: 1024px) { 
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+  .hero img {
+    padding-top: 1%;
+    height: 20rem;
+    width: 20rem;
+  }
+  .bio{
+    width:30%;
+    margin-bottom: 2%;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .twitterDiv{
+    height:560px;
+    text-align: center;
+    overflow: none;
+    width: 40%;
+  }
+  .aboutmep{
+    overflow: auto;
+    height: 500px;
   }
 }
 
@@ -557,76 +577,61 @@ h4 {
     transform: translateX(0);
   }
   .hero {
-    margin-top: -4rem;
     flex-direction: column;
     gap: 0;
     padding:2%;
   }
   .hero img {
     padding-top: 1%;
-    height: 30rem;
-    width: 31rem;
+    height: 25rem;
+    width: 23rem;
   }
-
-.bio{
-  width: 70%;
-  margin-right: -3%;
-  margin-bottom: 2%;
+  .bio{
+    width:80%;
+    margin-bottom: 2%;
+  }
+  .about {
+    font-size: 10px;
+    width: 90%;
+    overflow: none;
+    height:100px;  
+    height:45%;
+    font-size: 15px;
+  }
+  .flex-container {
+    height:100%;
+    padding-left:6%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .twitterDiv{
+    height:560px;
+    text-align: center;
+    overflow: none;
+    width: 80%;
+  }
+  .projectsection {
+    background-color: black;
+  }
+  .icon {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-card2 {
+    height: 450px;
+  }
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+  .submit-btn {
+    width: 40%;
+  }
 }
 
-.about {
-  font-size: 10px;
-  width: 90%;
-  overflow: none;
-  height:100px;  
-}
-
-.flex-container {
-  height:100%;
-  padding-left:6%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.about{
-overflow: auto;
-height:45%;
-font-size: 15px;
-}
-.twitterDiv{
-  height:560px;
-  text-align: center;
-  overflow: none;
-  padding-left: 4%;
-}
-.twitter-timeline {
-  height:190px;
-}
- 
-.projectsection {
-  background-color: black;
-}
-
-.icon {
-  width: 5.875rem;
-  height: 5.25rem;
-}
-
-.projects-container {
-  flex-direction: column;
-}
-
-.project-container {
-  width: 20.875rem;
-}
-
-.contact-form-container {
-  max-width: 23.75rem;
-}
-.submit-btn {
-  width: 40%;
-}
-}
-
+/* //Mobile devices */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   /* Navbar */
   nav {
