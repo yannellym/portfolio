@@ -124,7 +124,7 @@ burger menu */
 .hero-img {
   float: left;
   height: 25rem;
-  width: 450px;
+  max-width: 450px;
   margin: 4% 3%;
   border-radius: 50%;
   display: block;
@@ -227,8 +227,8 @@ burger menu */
 
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .icon-card {
@@ -274,21 +274,21 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
+  max-width: 500px;
   padding: 1rem;
+  height: 520px;
 }
-
-
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
 }
 .projects-title:after {
-display:block;
+  display:block;
   content: '';
   border-bottom: solid 3px #000000;  
   transform: scaleX(0);  
@@ -316,6 +316,7 @@ display:block;
   padding: 20px;
   margin: 10px;
   color: white;
+  height: 650px;
 }
 .project-card {
   background-color: #fff;
@@ -340,6 +341,26 @@ display:block;
 .project-link2:hover {
   color: #f7c0b5;
 }
+.btn-repo{
+  background-color: rgb(2, 163, 10);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+.btn-live{
+  background-color: #f7c0b5;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn-live >a, .btn-repo >a {
+  text-decoration: none;
+  color: white;
+}
+
 
 /* contact me */
 .contactme {
@@ -662,10 +683,10 @@ font-size: 15px;
   height:76px;
 }
   
-.hero img {
-  padding-top: 5%;
-  height: 18rem;
-  width: 17rem;
+.hero-img {
+  margin-top: 15%;
+  max-height: 15rem;
+  max-width: 17rem;
 }
 
 .bio{
