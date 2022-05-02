@@ -688,16 +688,16 @@ h4 {
     width: 100%;
   }
   .twitterDiv{
-    height: 550px;
+    height: 500px;
     text-align: center;
-    width: 400px;
+    width: 350px;
   }
   .twitterDivTitle{
     text-align: center;	
   }
   .aboutmep{
     font-size: 18px;
-    width: 370px;
+    width: 350px;
     line-height: 2.2;
     margin-left: 10%;
     overflow: auto;
@@ -727,6 +727,9 @@ h4 {
     padding: 20px;
     margin: 10px;
     height: 420px;
+  }
+  .project-card1 {
+    height: 650px;
   }
 }
 
