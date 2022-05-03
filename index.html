@@ -251,16 +251,17 @@
     
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
+          <form name="contact" method="POST" data-netlify="true">
             <div class="form-control">
+              <input type="hidden" name="contact_number">
               <label for="name">Name</label>
               <input
                 type="text"
                 id="name"
-                name="sender-name"
                 placeholder="Enter Your Name"
                 class="input-field"
-                required
+                required 
+                name="user_name"
               />
             </div>
             <div class="form-control">
@@ -268,10 +269,10 @@
               <input
                 type="email"
                 id="email"
-                name="sender-email"
                 placeholder="Enter Your Email"
                 class="input-field"
-                required
+                required 
+                name="user_email"
               />
             </div>
             <div class="form-control">
@@ -288,9 +289,11 @@
             </div>
             <input
               type="submit"
-              value="Submit"
+              value="send"
               class="submit-btn"
             />
+            </form>
+            <span>Thank you for your message, we will be in touch in no time!</span>
           </form>
         </div>
       </div>
@@ -357,7 +360,7 @@
 </div>
 
 
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- Website scripts -->
     <script src="index.js"></script>
 
