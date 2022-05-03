@@ -279,20 +279,12 @@ h4 {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  height: 400px;
+  height: 440px;
 }
 .project-link{
   color: #ffffff;  
 }
-.project-link:hover {
-  color:#eeff06;  
-}
-.project-link2{
-  color: rgb(0, 0, 0);
-}
-.project-link2:hover {
-  color: #f7c0b5;
-}
+
 .btn-div{
   display: flex;
   width: 70%;
@@ -308,6 +300,7 @@ h4 {
   margin: 0 auto;
   font-size: 16px;
   box-shadow: 0 3px 6px var(--primary-shadow);
+  text-align: center;
 }
 .btn-live{
   background-color: #f0b3a7;
@@ -320,16 +313,15 @@ h4 {
   margin: 0% auto;
   font-size: 16px;
   box-shadow: 0 3px 6px var(--primary-shadow);
-}
-.btn-live >a, .btn-repo >a {
-  text-decoration: none;
-  color: white;
+  text-align: center;
 }
 .btn-live:hover{
   background-color: #fe8b74;
+  color: white;
 }
 .btn-repo:hover{
   background-color: rgb(3, 198, 13);
+  color: white;
 }
 
 /* contact me */
