@@ -548,6 +548,9 @@ h4 {
     overflow: auto;
     height: 500px;
   }
+  .project-card2{
+    width: 550px;
+  }
 }
 
 /* Ipads and tablets */
