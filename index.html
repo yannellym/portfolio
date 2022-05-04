@@ -236,8 +236,9 @@
     <h2>Get In Touch With Me<img class="proj" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-email-seo-dreamstale-lineal-dreamstale.png"/></h2>
     <div class="contact-form-container">
       <div class="contact-form">
-        <form name="contact" method="POST" data-netlify="true">
+        <form action="https://formsubmit.co/96f03cd56437c0634d227166ad04c416" method="POST">
           <div class="form-control">
+            <input type="hidden" name="_subject" value="New portfolio contact submission!">
             <input type="hidden" name="contact_number">
             <label for="name">Name</label>
             <input
@@ -246,7 +247,7 @@
               placeholder="Enter Your Name"
               class="input-field"
               required 
-              name="user_name"
+              name="name"
             />
           </div>
           <div class="form-control">
@@ -257,7 +258,7 @@
               placeholder="Enter Your Email"
               class="input-field"
               required 
-              name="user_email"
+              name="email"
             />
           </div>
           <div class="form-control">
@@ -266,12 +267,14 @@
               id="message"
               cols="60"
               rows="10"
+              type="text"
               placeholder="Enter Your Message"
               name="message"
               class="input-field"
               required
             ></textarea>
           </div>
+          <input type="hidden" name="_next" value="http://yannellymercado.com/thankyou.html">
           <input
             type="submit"
             value="send"
