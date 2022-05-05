@@ -611,6 +611,9 @@ input[type = text], input[type = email]{
   .projects-container {
     flex-direction: column;
   }
+  .project-card1 {
+    height: 850px;
+  }
   .project-card2 {
     height: 450px;
   }
@@ -688,6 +691,7 @@ input[type = text], input[type = email]{
   .aboutmep{
     font-size: 18px;
     width: 350px;
+    max-width: 20rem;
     line-height: 2.2;
     margin-left: 10%;
     overflow: auto;
@@ -720,6 +724,9 @@ input[type = text], input[type = email]{
   }
   .project-card1 {
     height: 650px;
+  }
+  .btn-live{
+    width: 50%;
   }
 }
   /* Typing effect */
